@@ -1,5 +1,5 @@
-Html Canvas Draw a Square Demo
-==============================
+Html Canvas Square Move From Left to Right Demo
+===============================================
 
 使用Html的`canvas`标签画一个正方形，并且它会自动从左向右移动。
 
