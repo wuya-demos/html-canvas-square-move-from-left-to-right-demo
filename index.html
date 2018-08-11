@@ -1,0 +1,24 @@
+<html>
+<head>
+    <style>
+        #my-canvas {
+            border: 1px solid #d3d3d3;
+        }
+    </style>
+</head>
+<body>
+
+<canvas id="my-canvas" width="300" height="150"></canvas>
+
+<script>
+    const canvas = document.getElementById("my-canvas");
+    const ctx = canvas.getContext("2d");
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.lineTo(300, 150);
+    ctx.stroke();
+
+</script>
+
+</body>
+</html>
